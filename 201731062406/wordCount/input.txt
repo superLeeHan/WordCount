@@ -1,0 +1,29 @@
+characters:6596
+
+words:1226
+
+lines:7
+
+
+词频	单词
+
+67	the
+
+49	to
+
+44	of
+
+39	we
+
+37	and
+
+26	have
+
+24	it
+
+23	is
+
+20	our
+
+19	in
+
