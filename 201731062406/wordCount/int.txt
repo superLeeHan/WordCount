@@ -1,0 +1,29 @@
+characters:79
+
+words:13
+
+lines:14
+
+
+词频	单词
+
+2	characters
+
+1	as
+
+1	asd
+
+1	b
+
+1	d
+
+1	df
+
+1	ds
+
+1	e
+
+1	f
+
+1	fd
+

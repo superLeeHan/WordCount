@@ -1,29 +1,29 @@
-characters:6596
+characters:722770
 
-words:1226
+words:117976
 
-lines:7
+lines:11643
 
 
 词频	单词
 
-67	the
+7974	the
 
-49	to
+3595	of
 
-44	of
+3090	to
 
-39	we
+3018	and
 
-37	and
+2652	a
 
-26	have
+2097	he
 
-24	it
+2090	her
 
-23	is
+2037	in
 
-20	our
+1937	she
 
-19	in
+1530	his
 

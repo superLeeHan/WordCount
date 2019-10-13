@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9E5652A2-FB08-41A1-B83A-F0F65EB61AC4}</ProjectGuid>
+    <ProjectGuid>{8122975A-6A85-4F0B-A8A5-D4B693779958}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>wordCount</RootNamespace>
     <AssemblyName>wordCount</AssemblyName>
@@ -12,6 +12,7 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -45,6 +46,9 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WordCalculate.cs" />
+    <Compile Include="WordIO.cs" />
+    <Compile Include="WordTrie.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
