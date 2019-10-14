@@ -3,14 +3,17 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using CommandLine;
+using CommandLine.Text;
 
 namespace wordCount
 {
-    class WordCalculate
+    public class WordCalculate
     {
         public long charactersnumber = 0;  //字符数
         public long wordsnumber = 0;  //单词数
         public long linesnumber = 0;  //行数
+        public long phrasenumber = 0; //词组数
         //数据统计
         public void Calculate(string dataline, WordTrie wtrie)
         {
@@ -42,8 +45,9 @@ namespace wordCount
                 word = null;
             }
             this.linesnumber++;  //统计行数
-            this.wordsnumber = wtrie.CountSum;  //统计单词数
+            this.wordsnumber += wtrie.CountSum;  //统计单词数
             this.charactersnumber += dataline.Length;  //统计字符数
         }
     }
+
 }

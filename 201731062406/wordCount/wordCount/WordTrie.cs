@@ -1,15 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
+using CommandLine;
+using CommandLine.Text;
 
 namespace wordCount
 {
-    class WordTrie
+    public class WordTrie
     {
         //Trie树节点
-        private class TrieNode
+        public class TrieNode
         {
             public int PrefixNum = 0;  //前缀词频
             public int WordNum = 0;  //词频
@@ -110,7 +114,7 @@ namespace wordCount
         }
 
         //单词表生成（Trie树的前序遍历）
-        private List<ListUnit> WordPreOrder(TrieNode node, List<ListUnit> WordList)
+        public List<ListUnit> WordPreOrder(TrieNode node, List<ListUnit> WordList)
         {
             if (node.PrefixNum == 0) { return WordList; }
             if (node.WordNum != 0)
@@ -126,5 +130,7 @@ namespace wordCount
             }
             return WordList;
         }
+        
+
     }
 }
