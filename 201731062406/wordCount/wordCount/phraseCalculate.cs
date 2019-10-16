@@ -11,7 +11,7 @@ using CommandLine.Text;
 
 namespace wordCount
 {
-    class phraseCalculate
+    public class phraseCalculate
     {
         
 
